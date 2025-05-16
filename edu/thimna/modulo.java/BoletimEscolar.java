@@ -8,9 +8,12 @@ public class BoletimEscolar {
     public static void main(String[] args) {
         int media;
         media = 5;
-        if (media < 6) {
+
+        if (media <= 6) {
             System.out.println("REPROVADO") ;
-        else if (media ==6 ) {
+       } 
+       else if (media ==6 ) {
+       }
             System.out.println("prova minerva") ;
         else  {
             System.out.println("Aprovado") ;
@@ -19,6 +22,6 @@ public class BoletimEscolar {
         }
             
         }
-    }
+
     
-}
+
