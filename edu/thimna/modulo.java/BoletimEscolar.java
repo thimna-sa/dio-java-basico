@@ -13,8 +13,9 @@ public class BoletimEscolar {
             System.out.println("REPROVADO") ;
        } 
        else if (media ==6 ) {
+        System.out.println("prova minerva") ;
        }
-            System.out.println("prova minerva") ;
+    
         else  {
             System.out.println("Aprovado") ;
         }
