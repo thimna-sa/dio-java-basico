@@ -13,6 +13,7 @@ public class MaiorMedia {
         
 
         do {
+
             System.out.println("Digite um Numero:  ");
             numero =  scan.nextInt();
 
@@ -25,9 +26,9 @@ public class MaiorMedia {
             
 
         } while (contador < 5);{
-            System.out.println("A Soma dos números informados foi: "+ soma);
-            System.out.println(" O maior número informado foi : "+ maior);
-            System.out.println("A Media dos números informados foi: "+ (soma / 5));
+            //System.out.println("A Soma dos números informados foi: "+ soma);
+            //System.out.println(" O maior número informado foi : "+ maior);
+            System.out.println("A Media dos números informados foi: "+ (soma / contador));
 
         }
 
